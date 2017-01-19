@@ -8,10 +8,16 @@ class Map
 public:
 
   Map();
+  
+  bool generate();
 
 private:
 
   Tile* spawnpoint;
+  
+  int nodeCount;
+  
+  float radius;
   
 };
 
