@@ -9,6 +9,8 @@ public:
 
   Map();
   
+  Map(int nodeCount, float radius);
+
   bool generate();
 
 private:

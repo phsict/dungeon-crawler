@@ -2,6 +2,7 @@
 #define __TILE__
 
 #include <vector>
+#include <list>
 
 using namespace std;
 
