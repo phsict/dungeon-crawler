@@ -7,19 +7,19 @@ class Map
 {
 public:
 
-  Map();
+	Map();
   
-  Map(int nodeCount, float radius);
+	Map(int nodeCount, float radius);
 
-  bool generate();
+	bool generate();
 
 private:
 
-  Tile* spawnpoint;
+	Tile* spawnpoint;
   
-  int nodeCount;
-  
-  float radius;
+	int nodeCount;
+
+	float radius;
   
 };
 
