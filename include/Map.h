@@ -2,6 +2,8 @@
 #define __MAP__
 
 #include "Tile.h"
+#include "Point.h"
+#include "Segment.h"
 
 class Map
 {
@@ -20,6 +22,10 @@ private:
 	int nodeCount;
 
 	float radius;
+  
+  	void extrude(Segment* face,
+  	             Segment* bound1,
+  	             Segment* bound2);
   
 };
 
